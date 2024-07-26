@@ -25,11 +25,11 @@ public class ProductTest {
         assertEquals("laptop",product.getProductName());
     }
     @Test
-    void testPrice(){
+    void testProductPrice(){
         assertEquals(643754.8798,product.getPrice());
     }
     @Test
-    void testQuantity(){
+    void testProductQuantity(){
         assertEquals(5,product.getQuantity());
     }
     @Test
